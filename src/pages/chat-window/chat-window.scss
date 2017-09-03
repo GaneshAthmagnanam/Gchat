@@ -1,0 +1,84 @@
+page-chat-window {
+   ::-webkit-scrollbar { 
+    display: block; 
+}
+#all{
+    margin-top: 20px;
+}
+#ownname{
+    font-size: 12px;
+    margin-left: 3px;
+    color: green;
+}
+#username{
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 3px;
+    color: darkred;
+}
+#msgownComplete{
+    background-color: #DCEDC1;
+    //background-color: #AAFF77;
+    width: 200px;
+    height: auto;
+    border: 0px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    //border: 25px solid green;
+    padding: 5px;
+    margin:5px;
+    margin-left: 30%;
+    //font-size: 20px;
+    //margin-left: 15px;
+    //color: brown;
+    //width: 11em; 
+    //border: 5px dotted #000000;
+    word-wrap: break-word;
+    
+}
+
+#msgComplete{
+    background-color: lightcyan;
+    width: 200px;
+    height: auto;
+    border: 0px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    //border: 25px solid green;
+    margin-left: 30%;
+    padding: 5px;
+    margin: 5px;
+    //font-size: 20px;
+    //margin-left: 15px;
+    //color: brown;
+    //width: 11em; 
+    //border: 5px dotted #000000;
+    word-wrap: break-word;
+    //word-wrap: break-word;
+}
+#msg{
+    font-size: 20px;
+    margin-left: 15px;
+    color: black;
+    //width: 11em; 
+    //border: 5px dotted #000000;
+    word-wrap: break-word;
+}
+#ownmsg{
+    font-size: 20px;
+    margin-left: 15px;
+    color: black;
+    //width: 11em; 
+    //border: 5px dotted #000000;
+    word-wrap: break-word;
+}
+ion-title{
+    //align-content: center;
+    //text-align: center;
+}
+#send
+{flex-grow: 3;
+display: flex;
+    flex-direction: row-reverse;
+}
+}

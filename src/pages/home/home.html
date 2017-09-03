@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>
+      Gchat
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-item>
+  <ion-label stacked>Username</ion-label>
+    <ion-input type="text" [(ngModel)]="username"></ion-input>
+  </ion-item>
+  <ion-item>
+  <ion-label stacked>Password</ion-label>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
+  </ion-item>
+  
+<button ion-button block  (click)="login()">CHAT</button>
+</ion-content>
